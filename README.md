@@ -1,1 +1,1 @@
-# Trybe
+LIsta de exercicios da trybe
