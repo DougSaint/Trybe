@@ -1,5 +1,5 @@
 
-console.log("ORDEM CRESCENTE")
+/*console.log("ORDEM CRESCENTE")
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 for(i = 0; i < numbers.length; i++){
     for(x = 0; x < numbers.length; x++){
@@ -10,16 +10,17 @@ for(i = 0; i < numbers.length; i++){
         }
     }
 }
-console.log(numbers)
+console.log(numbers) */
 
 
 /*------------------------------------------------------------ */
 
-console.log("Ordem decrescente")
+/* console.log("Ordem decrescente")
 
 let numbers2 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-for(i = 0; i < numbers2.length; i++){
-    for(x = 0; x < numbers2.length; x++){
+
+for(let i = 0; i < numbers2.length; i++){
+    for(let x = 0; x < numbers2.length; x++){
         if(numbers2[x] < numbers2[i]){
             let number = numbers2[x]
             numbers2[x] = numbers2[i]
@@ -27,4 +28,14 @@ for(i = 0; i < numbers2.length; i++){
         }
     }
 }
-console.log(numbers2)
+//console.log(numbers2)
+
+newArr = numbers2.sort()
+console.log(newArr) */ 
+
+
+
+
+
+
+
