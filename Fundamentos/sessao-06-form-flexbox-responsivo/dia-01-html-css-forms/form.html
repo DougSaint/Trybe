@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrybeTrip</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100%;
+            color: gray;
+        }
+    
+        fieldset{
+            border: 2px solid black;
+        }
+        #main{
+            max-width: 40%;
+            margin: auto;
+        }
+        #title{
+            text-align: center;
+        }
+        input{
+            margin-top: 1em;
+        }
+        #response{
+            width: 80%;
+            height: 10em;
+        }
+        .botao{
+            color: gray;
+            margin-top: 10px;
+            border: 1px solid gray;
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        #send{
+            margin-right: 25px;
+        }
+        #date{
+            color: gray;
+        }
+        .footer{
+            margin-top: 7%;
+            text-align: center;
+            color: black;
+            background-color: rgb(223, 247, 252);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="title">Header da pagina</h1>
+    </header>
+    
+    <main id ="main">
+        <form action="" method="get" id ="formulario">
+            <fieldset>
+                <label for="name">Nome: </label>
+                <input type="name" id ="name">
+                <br>
+                Formato do Formulário TrybeTrip. <label for="2">Opção 2</label>
+                <input type="radio" name="option" id="3">
+                <label for="3">Opção 3</label>
+                <input type="radio" name="option" id="4">
+                <label for="4">Opção 4</label>
+                <h3>Espaço para digitar a resposta:</h3>
+                <textarea id ="response"></textarea>
+                <br>
+                <label for="data">Data: </label>
+                <input type="date" name="data" id="data">
+                <br>
+                <label for="agree1">Concordo1: </label>
+                <input type="checkbox" name="agree" id="agree1" required="required">
+                <br>
+                <label for="agree2">Concordo2: </label>
+                <input type="checkbox" name="agree" id="agree2"required="required">
+             </fieldset>
+             <button class ="botao" id="send">Enviar</button>
+             <button class ="botao" id ="clear">Apagar</button>
+        </form>
+    </main>
+    <footer>
+        <h3 class ="footer">Formato do Formulário TrybeTrip.</h3>
+    </footer>
+</body>
+</html>
